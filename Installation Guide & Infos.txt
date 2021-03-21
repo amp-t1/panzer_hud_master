@@ -1,0 +1,12 @@
+////////////////////////////////////////////////
+///////////// INSTALLATION PROCESS /////////////
+////////////////////////////////////////////////
+
+1) Extract the hud and copy the m0rehud folder
+
+2) Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom)
+
+NOTES:
+
+I also suggest using "tf_hud_target_id_disable_floating_health" "1" since the floating version is not as consistan and can have problems.
+

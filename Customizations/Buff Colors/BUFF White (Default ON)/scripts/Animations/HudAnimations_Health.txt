@@ -1,0 +1,116 @@
+//====================================================================================================================
+
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"255"								Linear 	0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"0"									Linear 	0.2 0.4
+	
+	Animate	PlayerStatusHealthValue					FgColor		"255 255 255 255" 					Linear 0.0 0.075
+	
+	Animate PlayerStatusHealthValueShadow 			FgColor 	"0 0 0 255" 						Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"255" 								Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueTarget 			FgColor 	"Health Buff Target" 				Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueSpecgui 			FgColor 	"Health Buff Spec" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueSpecguiExtra 	Alpha 		"255" 								Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueKiller 			FgColor 	"Health Buff Killer" 				Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"18 17 17 255" 							Accel 	0.0 0.0
+	
+	//YAHUD SPECUI
+	Animate	PlayerStatusHealthValueTour  			FgColor		"140 255 100 255" 					Linear 0.0 0.075
+	Animate	SpecBG 	        						BgColor		"0 0 0 188"	    					Accel 	0.0 0.0
+    Animate	SpecBG 	        						Alpha		"255"		        				Accel 	0.0 0.3
+	Animate	SpecBG 	        						Alpha		"255"		        				Accel 	0.3 0.6
+	
+	RunEvent HudHealthBonusPulseLoop				0.4
+}
+
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse					0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 					0.0
+	StopEvent HudHealthBonusPulseLoop				0.0
+	
+	Animate PlayerStatusHealthValueShadow 			FgColor 	"Black" 							Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"0"									Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValue					FgColor		"255 255 255 255"					Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueTarget 			FgColor 	"Health Numbers" 					Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Numbers" 					Accel	0.0 0.0
+	Animate PlayerStatusHealthValueSpecguiExtra 	Alpha 		"0" 								Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueKiller 			FgColor 	"Health Numbers" 						Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"18 17 17 255" 							Linear 	0.0 0.0
+	
+	//YAHUD SPECUI
+	Animate	PlayerStatusHealthValueTour  			FgColor		"227 227 227 255"            		Accel 	0.0 0.0
+	Animate	SpecBG 	        						BgColor		"0 0 0 188"	       					Accel 	0.0 0.0
+    Animate	SpecBG 	         						Alpha		"255"								Accel 	0.0 0.0
+}
+
+//====================================================================================================================
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"255"								Linear 	0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"0"									Linear 	0.125 0.075
+	
+	Animate PlayerStatusHealthValue					FgColor		"Health Hurt"						Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueShadow 			FgColor 	"Black" 							Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"255" 								Accel	0.0 0.0
+	
+	Animate PlayerStatusHealthValueTarget 			FgColor 	"Health Hurt Target" 				Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Hurt Spec" 					Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueSpecguiExtra 	Alpha 		"255" 								Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueKiller 			FgColor 	"Health Hurt Killer" 				Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"18 17 17 255" 						Accel 	0.0 0.0
+	
+	//YAHUD SPECUI
+	Animate	PlayerStatusHealthValueTour  			FgColor		"200 0 0 255"						Linear 0.0 0.075
+	Animate	PlayerStatusHealthValueTour  			FgColor		"255 0 0 255"						Linear 0.125 0.075
+	Animate	SpecBG 	        						BgColor		"0 0 0 188"	    					Accel 	0.0 0.0
+    Animate	SpecBG 	        						Alpha		"255"		        				Accel 	0.0 0.3
+	Animate	SpecBG 	        						Alpha		"255"		        				Accel 	0.3 0.6
+
+	RunEvent HudHealthDyingPulseLoop				0.25
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse					0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse					0.0
+	StopEvent HudHealthDyingPulseLoop 				0.0
+	
+	Animate PlayerStatusHealthValueShadow 			FgColor 	"Black" 							Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"0" 								Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValue					FgColor		"Health Numbers"					Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueTarget 			FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueSpecguiExtra 	Alpha 		"0" 								Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueKiller 			FgColor 	"Health Numbers" 					Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"18 17 17 255" 							Linear 	0.0 0.0
+	
+	//YAHUD SPECUI
+	Animate	PlayerStatusHealthValueTour  			FgColor		"227 227 227 255"            		Accel 	0.0 0.0
+	Animate	SpecBG 	        						BgColor		"0 0 0 188"	       					Accel 	0.0 0.0
+    Animate	SpecBG 	         						Alpha		"255"								Accel 	0.0 0.0
+}
