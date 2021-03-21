@@ -1,33 +1,16 @@
-# m0rehud
-
-**m0rehud, competitive hud updated and improved by Hypnotize**
+# panzer_hud
 
 <a>LINKS</a>
 ====
-
-[TeamFortress.tv](http://www.teamfortress.tv/34115/m0re-hud)
-
-[Huds.tf](http://huds.tf/forum/showthread.php?tid=248)
-
-[Screenshot Album](http://imgur.com/a/sxOyM)
-
-[Changelogs](https://github.com/Hypnootize/m0rehud/commits/master)
+[Screenshot Album](https://imgur.com/a/7dZr4sq)
 
 
 <a>INSTALLATION</a>
 ====
 
-**1)** Extract the hud and copy the m0rehud folder
+**1)** Extract the hud and copy the panzer_hud folder
 
 **2)** Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom)
-
-**NOTES:**
-
-In case you are using a **4:3, 5:4 or 16:10** aspect ration be sure to use the right patches in order to make the hud compatible with these resolutions. 
-
-You can find the patches inside the "Customizations & Overrides" > "4x3, 5x4, 16x10 Overrides" folder, open the folder that matches your aspect ration and take the "resource" folder in it, last replace it over the normal m0rehud files!
-
-I suggest using **"tf_hud_target_id_disable_floating_health" "1"** since the floating version is not as consistan and can have problems.
 
 
 <a>CUSTOMIZATION</a>
@@ -37,13 +20,7 @@ I suggest using **"tf_hud_target_id_disable_floating_health" "1"** since the flo
 
 **2)** Once you picked a customization open the dedicated folder and copy all the folders inside (usualy they are named: materials, resource, scripts)
 
-**3)** Paste and replace the folder/s over the normal m0rehud files!
-
-*QUICK EXAMPLE: if I want the Health Cross customization I will:*
-*Open "Health Ammo Uber Style" then "[Health] Health Cross" then copy the "materials" and "resource" folders and replace them over the m0rehud files!*
-
-
-**It is also possible to change the colors more in depth from the resource/colors.res!**
+**3)** Paste and replace the folder/s over the normal panzer_hud files!
 
 
 <a>CROSSHAIRS</a>
@@ -57,8 +34,9 @@ It is also possible to easily animate them so the crosshair turns red on damage 
 
 <a>CREDITS</a>
 ====
-**Created By:** m0re
+**Created By:** amp-t
 
-**Updated in the years by:** Zimmy, Gunblade, NinjaDC, Zen
+**Shoutout to:** Hypnotize for sooooo much help over the last year, junnu for hud help too, buud, iroh, jared and smile
 
-**IF YOU ARE GETTING ANY KIND OF PROBLEM DON'T HESITATE TO CONTACT ME** [HERE](http://www.teamfortress.tv/34115/m0re-hud)
+**If you want to contact me about the hud:** steam : https://steamcommunity.com/profiles/76561198124159344/
+discord : amp-t#5856
