@@ -38,6 +38,7 @@ It is also possible to easily animate them so the crosshair turns red on damage 
 
 **Shoutout to:** Hypnotize for sooooo much help over the last year, junnu for hud help too, buud, iroh, jared and smile
 
-**If you want to contact me about the hud:** [Steam](https://steamcommunity.com/profiles/76561198124159344/)
+**If you want to contact me about the hud:** 
+[Steam](https://steamcommunity.com/profiles/76561198124159344/)
 
 discord : amp-t#5856
